@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lucas Mansilla</title>
+  <meta name="description" content="Lucas Mansilla, PhD — Postdoctoral Fellow (CONICET) at sinc(i) and Adjunct Professor at FIQ–UNL. Machine learning for medical image analysis: fairness, continual learning and domain generalization.">
+  <meta property="og:title" content="Lucas Mansilla">
+  <meta property="og:description" content="Postdoctoral Fellow (CONICET) at sinc(i) and Adjunct Professor at FIQ–UNL. Machine learning for medical image analysis.">
+  <meta property="og:type" content="profile">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%232b5d8a'/><text x='32' y='42' font-family='Georgia,serif' font-size='28' text-anchor='middle' fill='white'>LM</text></svg>">
+  <style>
+    :root {
+      --bg: #fbfaf7;
+      --text: #1f2328;
+      --muted: #5c6670;
+      --accent: #2b5d8a;
+      --rule: #e4e1da;
+      --chip: #eef2f6;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #15181c;
+        --text: #e6e8eb;
+        --muted: #9aa4ae;
+        --accent: #7fb0dc;
+        --rule: #2a2f36;
+        --chip: #1f252c;
+      }
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    main { max-width: 760px; margin: 0 auto; padding: 56px 20px 40px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    header { display: flex; gap: 28px; align-items: center; margin-bottom: 40px; }
+    .avatar {
+      flex: none; width: 128px; height: 128px; border-radius: 50%;
+      object-fit: cover; background: var(--chip);
+      display: grid; place-items: center;
+      font: 600 40px/1 Georgia, serif; color: var(--accent);
+    }
+    h1 { font: 600 2.1rem/1.15 Georgia, "Times New Roman", serif; margin: 0 0 6px; }
+    .role { margin: 0; color: var(--muted); }
+    .links { display: flex; flex-wrap: wrap; gap: 8px 16px; margin-top: 14px; font-size: 0.95rem; }
+
+    h2 {
+      font: 600 0.8rem/1 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted);
+      margin: 44px 0 16px; padding-bottom: 8px; border-bottom: 1px solid var(--rule);
+    }
+    h3 { font-size: 1rem; margin: 26px 0 12px; }
+    p { margin: 0 0 12px; }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; padding: 0; margin: 14px 0 0; }
+    .chips li { background: var(--chip); border-radius: 999px; padding: 3px 12px; font-size: 0.9rem; }
+
+    .pubs { list-style: none; padding: 0; margin: 0; }
+    .pubs li { margin-bottom: 20px; }
+    .pub-title { font-weight: 600; }
+    .pub-authors, .pub-venue { color: var(--muted); font-size: 0.93rem; }
+    .me { color: var(--text); font-weight: 600; }
+    .pub-links { font-size: 0.88rem; margin-top: 2px; }
+    .pub-links a { margin-right: 12px; }
+
+    .entries { list-style: none; padding: 0; margin: 0; }
+    .entries li { display: flex; justify-content: space-between; gap: 16px; margin-bottom: 12px; }
+    .entries .what small { display: block; color: var(--muted); font-size: 0.9rem; }
+    .entries .when { flex: none; color: var(--muted); font-size: 0.9rem; font-variant-numeric: tabular-nums; }
+
+    .plain { padding-left: 20px; margin: 0; }
+    .plain li { margin-bottom: 6px; }
+
+    footer { margin-top: 56px; padding-top: 16px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+
+    @media (max-width: 560px) {
+      main { padding: 36px 16px 32px; }
+      header { flex-direction: column; align-items: flex-start; gap: 18px; }
+      .avatar { width: 104px; height: 104px; font-size: 32px; }
+      h1 { font-size: 1.8rem; }
+      .entries li { flex-direction: column; gap: 0; }
+    }
+  </style>
+</head>
+<body>
+<main>
+
+  <header>
+    <!-- To use a photo: add photo.jpg to this folder and replace the div below with
+         <img class="avatar" src="photo.jpg" alt="Lucas Mansilla"> -->
+    <div class="avatar" aria-hidden="true">LM</div>
+    <div>
+      <h1>Lucas Mansilla</h1>
+      <p class="role">Postdoctoral Fellow, CONICET · <a href="https://sinc.unl.edu.ar/">sinc(i)</a><br>
+        Adjunct Professor, FIQ · Universidad Nacional del Litoral · Santa Fe, Argentina</p>
+      <nav class="links" aria-label="Profiles">
+        <a href="mailto:lmansilla@sinc.unl.edu.ar">Email</a>
+        <a href="https://scholar.google.com/citations?user=5WMFRWgAAAAJ&amp;hl=en">Google Scholar</a>
+        <a href="https://orcid.org/0000-0002-8349-8283">ORCID</a>
+        <a href="https://github.com/lamansilla">GitHub</a>
+        <a href="https://sinc.unl.edu.ar/staff/lucas-mansilla/">Institute page</a>
+      </nav>
+    </div>
+  </header>
+
+  <section>
+    <h2>About</h2>
+    <p>I am a CONICET postdoctoral fellow at the Research Institute for Signals, Systems and Computational
+      Intelligence, <a href="https://sinc.unl.edu.ar/">sinc(i)</a> (UNL–CONICET), and an Adjunct Professor at
+      the Facultad de Ingeniería Química, Universidad Nacional del Litoral. My postdoctoral research studies
+      <strong>algorithmic fairness through the lens of continual learning</strong>.</p>
+    <p>More broadly, I work on machine learning for medical image analysis, with a focus on models that stay
+      reliable when the data changes: generalization across domains, fairness across demographic groups, and
+      anatomically plausible segmentation and registration.</p>
+    <p>I received my PhD in Engineering from UNL in 2024, advised by Enzo Ferrante and Diego H. Milone, with a
+      thesis on domain-adaptive and constrained deep learning for realistic medical image registration.
+      Before that, I graduated in Informatics Engineering (UNL, 2019).</p>
+    <ul class="chips" aria-label="Research interests">
+      <li>Fairness</li>
+      <li>Continual learning</li>
+      <li>Domain generalization</li>
+      <li>Medical image analysis</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Publications</h2>
+
+    <h3>Journals &amp; conferences</h3>
+    <ol class="pubs">
+      <li>
+        <div class="pub-title">ConfICRCA: Statistically Grounded Efficient Estimation of Segmentation Quality</div>
+        <div class="pub-authors">M. Cosarinsky, R. Billot, <span class="me">L. Mansilla</span>, G. Jimenez, N. Gaggion, G. Fu, T. Tirer, E. Ferrante</div>
+        <div class="pub-venue"><em>IEEE Transactions on Medical Imaging</em>, 2026</div>
+        <div class="pub-links"><a href="https://doi.org/10.1109/TMI.2026.3679618">Paper</a></div>
+      </li>
+      <li>
+        <div class="pub-title">Demographically-Informed Prediction Discrepancy Index: Early Warnings of Demographic Biases for Unlabeled Populations</div>
+        <div class="pub-authors"><span class="me">L. Mansilla</span>, E. Claucich, R. Echeveste, D. H. Milone, E. Ferrante</div>
+        <div class="pub-venue"><em>Transactions on Machine Learning Research (TMLR)</em>, 2024</div>
+        <div class="pub-links"><a href="https://openreview.net/forum?id=8W6IDyFZgC">OpenReview</a></div>
+      </li>
+      <li>
+        <div class="pub-title">CheXmask: a large-scale dataset of anatomical segmentation masks for multi-center chest x-ray images</div>
+        <div class="pub-authors">N. Gaggion, C. Mosquera, <span class="me">L. Mansilla</span>, J. M. Saidman, M. Aineseder, D. H. Milone, E. Ferrante</div>
+        <div class="pub-venue"><em>Scientific Data</em> 11, 2024</div>
+        <div class="pub-links">
+          <a href="https://doi.org/10.1038/s41597-024-03358-1">Paper</a>
+          <a href="https://github.com/ngaggion/CheXmask-Database">Code</a>
+        </div>
+      </li>
+      <li>
+        <div class="pub-title">Improving Anatomical Plausibility in Medical Image Segmentation via Hybrid Graph Neural Networks: Applications to Chest X-Ray Analysis</div>
+        <div class="pub-authors">N. Gaggion, <span class="me">L. Mansilla</span>, C. Mosquera, D. H. Milone, E. Ferrante</div>
+        <div class="pub-venue"><em>IEEE Transactions on Medical Imaging</em> 42, 546–556, 2023</div>
+        <div class="pub-links">
+          <a href="https://doi.org/10.1109/TMI.2022.3224660">Paper</a>
+          <a href="https://github.com/ngaggion/HybridGNet">Code</a>
+        </div>
+      </li>
+      <li>
+        <div class="pub-title">Domain Generalization via Gradient Surgery</div>
+        <div class="pub-authors"><span class="me">L. Mansilla</span>, R. Echeveste, D. H. Milone, E. Ferrante</div>
+        <div class="pub-venue"><em>IEEE/CVF International Conference on Computer Vision (ICCV)</em>, 2021</div>
+        <div class="pub-links">
+          <a href="https://doi.org/10.1109/ICCV48922.2021.00656">Paper</a>
+          <a href="https://github.com/lucasmansilla/DGvGS">Code</a>
+        </div>
+      </li>
+      <li>
+        <div class="pub-title">Hybrid Graph Convolutional Neural Networks for Landmark-Based Anatomical Segmentation</div>
+        <div class="pub-authors">N. Gaggion, <span class="me">L. Mansilla</span>, D. H. Milone, E. Ferrante</div>
+        <div class="pub-venue"><em>Medical Image Computing and Computer-Assisted Intervention (MICCAI)</em>, 600–610, 2021</div>
+        <div class="pub-links">
+          <a href="https://doi.org/10.1007/978-3-030-87193-2_57">Paper</a>
+          <a href="https://github.com/ngaggion/HybridGNet">Code</a>
+        </div>
+      </li>
+      <li>
+        <div class="pub-title">Learning deformable registration of medical images with anatomical constraints</div>
+        <div class="pub-authors"><span class="me">L. Mansilla</span>, D. H. Milone, E. Ferrante</div>
+        <div class="pub-venue"><em>Neural Networks</em> 124, 269–279, 2020</div>
+        <div class="pub-links">
+          <a href="https://doi.org/10.1016/j.neunet.2020.01.023">Paper</a>
+          <a href="https://github.com/lucasmansilla/ACRN_Chest_X-ray_IA">Code</a>
+        </div>
+      </li>
+    </ol>
+
+    <h3>Workshops</h3>
+    <ol class="pubs">
+      <li>
+        <div class="pub-title">Label-Free Foundational Model Selection for Medical Image Classification under Distribution Shift via Pseudo Label Discrepancy</div>
+        <div class="pub-authors">J. I. Larrea, <span class="me">L. Mansilla</span>, E. Ferrante</div>
+        <div class="pub-venue"><em>MICCAI 2026 Workshop MIRASOL</em>, 2026</div>
+        <div class="pub-links"><a href="https://doi.org/10.48550/arXiv.2608.25810">arXiv</a></div>
+      </li>
+      <li>
+        <div class="pub-title">Unsupervised Bias Discovery in Medical Image Segmentation</div>
+        <div class="pub-authors">N. Gaggion, R. Echeveste, <span class="me">L. Mansilla</span>, D. H. Milone, E. Ferrante</div>
+        <div class="pub-venue"><em>MICCAI Workshop on Fairness of AI in Medical Imaging (FAIMI)</em>, 2023</div>
+        <div class="pub-links"><a href="https://doi.org/10.1007/978-3-031-45249-9_26">Paper</a></div>
+      </li>
+    </ol>
+
+    <h3>Preprints</h3>
+    <ol class="pubs">
+      <li>
+        <div class="pub-title">BM-CL: Bias Mitigation through the Lens of Continual Learning</div>
+        <div class="pub-authors"><span class="me">L. Mansilla</span>, R. Echeveste, C. Gonzalez, D. H. Milone, E. Ferrante</div>
+        <div class="pub-venue"><em>arXiv preprint</em>, 2026</div>
+        <div class="pub-links"><a href="https://doi.org/10.48550/arXiv.2509.01730">arXiv</a></div>
+      </li>
+      <li>
+        <div class="pub-title">Value-Aware Product Recommendation by Customer Segmentation using a suitable High-Dimensional Similarity Measure</div>
+        <div class="pub-authors">M. F. Acosta, R. G. Arancibia, P. Llop, M. Lovatto, <span class="me">L. Mansilla</span></div>
+        <div class="pub-venue"><em>arXiv preprint</em>, 2026</div>
+        <div class="pub-links"><a href="https://doi.org/10.48550/arXiv.2604.26983">arXiv</a></div>
+      </li>
+    </ol>
+
+    <p><a href="https://scholar.google.com/citations?user=5WMFRWgAAAAJ&amp;hl=en">Full list on Google Scholar →</a></p>
+  </section>
+
+  <section>
+    <h2>Teaching</h2>
+    <ul class="entries">
+      <li>
+        <span class="what">Adjunct Professor, Facultad de Ingeniería Química (FIQ), UNL
+          <small>Optimization and Machine Learning II · Data Science I &amp; II</small></span>
+        <span class="when">2024 – present</span>
+      </li>
+      <li>
+        <span class="what">Lecturer, Universidad de San Andrés (UdeSA)
+          <small>Computer Vision and Perception · Master's in Artificial Intelligence</small></span>
+        <span class="when">2026 – present</span>
+      </li>
+      <li>
+        <span class="what">Instructor, Fundación Sadosky
+          <small>Image Processing with Neural Networks</small></span>
+        <span class="when">2024 – 2025</span>
+      </li>
+      <li>
+        <span class="what">Graduate Teaching Assistant, FICH, UNL
+          <small>Deep Learning</small></span>
+        <span class="when">2021 – 2023</span>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Service</h2>
+    <ul class="plain">
+      <li><strong>Silver Reviewer</strong>, ICML 2026</li>
+      <li>Journal reviewer: Medical Image Analysis, IEEE Transactions on Medical Imaging, IEEE Transactions on Technology and Society, International Journal of Computer Assisted Radiology and Surgery</li>
+      <li>Conference &amp; workshop reviewer: ICML, Workshop on Biomedical Image Registration (WBIR)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Software &amp; data</h2>
+    <ul class="plain">
+      <li><a href="https://github.com/lucasmansilla/NIH_chest_xray14_segmentations">NIH_chest_xray14_segmentations</a> — segmentations for the NIH ChestX-ray14 dataset</li>
+      <li><a href="https://github.com/lucasmansilla/multiatlas-landmark">multiatlas-landmark</a> — landmark-based segmentation using multi-atlas</li>
+      <li><a href="https://github.com/lucasmansilla/multiatlas-rca">multiatlas-rca</a> — multi-atlas segmentation and accuracy prediction via reverse classification accuracy</li>
+    </ul>
+  </section>
+
+  <footer>
+    © 2026 Lucas Mansilla · sinc(i), Ciudad Universitaria UNL, Santa Fe, Argentina
+  </footer>
+
+</main>
+</body>
+</html>
